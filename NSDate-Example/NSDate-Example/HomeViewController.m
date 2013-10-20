@@ -24,10 +24,12 @@
     return _dates;
 }
 
-- (id)init:(UITableViewStyle)style
+- (id)init
 {
     self = [super initWithStyle:UITableViewStylePlain];
-    self.title = @"NSDate+Helper Examples";
+    if (self) {
+        self.navigationItem.title = @"NSDate+Helper Examples";
+    }
     return self;
 }
 
@@ -38,6 +40,7 @@
     NSDate *now = [NSDate date];
     
     [self.dates addObject:[now stringWithFormat:@"dd-MM-yyyy"]];
+    [self.dates addObject:[now string]];
     [self.dates addObject: [NSString stringWithFormat:@"%i",[now daysAgo]]];
     [self.dates addObject: [NSString stringWithFormat:@"%i",[now daysAgoAgainstMidnight]]];
     [self.dates addObject:[now stringDaysAgo]];

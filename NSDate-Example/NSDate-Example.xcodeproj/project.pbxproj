@@ -19,7 +19,7 @@
 		50E17B3918141C4F00E2F9B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50E17B3718141C4F00E2F9B3 /* InfoPlist.strings */; };
 		50E17B3B18141C4F00E2F9B3 /* NSDate_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E17B3A18141C4F00E2F9B3 /* NSDate_ExampleTests.m */; };
 		50E17B4718141C8800E2F9B3 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E17B4618141C8800E2F9B3 /* NSDate+Helper.m */; };
-		50E17B50181421BB00E2F9B3 /* NSDateHelper.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50E17B4F181421BB00E2F9B3 /* NSDateHelper.strings */; };
+		50E17B50181421BB00E2F9B3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50E17B4F181421BB00E2F9B3 /* Localizable.strings */; };
 		50E17B5818142BA600E2F9B3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E17B5718142BA600E2F9B3 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +51,7 @@
 		50E17B3A18141C4F00E2F9B3 /* NSDate_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDate_ExampleTests.m; sourceTree = "<group>"; };
 		50E17B4518141C8800E2F9B3 /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Helper.h"; path = "../../NSDate+Helper.h"; sourceTree = "<group>"; };
 		50E17B4618141C8800E2F9B3 /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Helper.m"; path = "../../NSDate+Helper.m"; sourceTree = "<group>"; };
-		50E17B4F181421BB00E2F9B3 /* NSDateHelper.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = NSDateHelper.strings; path = ../../NSDateHelper.strings; sourceTree = "<group>"; };
+		50E17B4F181421BB00E2F9B3 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ../../Localizable.strings; sourceTree = "<group>"; };
 		50E17B5618142BA600E2F9B3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		50E17B5718142BA600E2F9B3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,7 +118,7 @@
 				50E17B2518141C4F00E2F9B3 /* AppDelegate.m */,
 				50E17B2718141C4F00E2F9B3 /* Images.xcassets */,
 				50E17B1C18141C4F00E2F9B3 /* Supporting Files */,
-				50E17B4F181421BB00E2F9B3 /* NSDateHelper.strings */,
+				50E17B4F181421BB00E2F9B3 /* Localizable.strings */,
 				50E17B5618142BA600E2F9B3 /* HomeViewController.h */,
 				50E17B5718142BA600E2F9B3 /* HomeViewController.m */,
 			);
@@ -238,7 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50E17B2818141C4F00E2F9B3 /* Images.xcassets in Resources */,
-				50E17B50181421BB00E2F9B3 /* NSDateHelper.strings in Resources */,
+				50E17B50181421BB00E2F9B3 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +461,7 @@
 				50E17B4018141C4F00E2F9B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50E17B4118141C4F00E2F9B3 /* Build configuration list for PBXNativeTarget "NSDate-ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +470,7 @@
 				50E17B4318141C4F00E2F9B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
