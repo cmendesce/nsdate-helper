@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>39FA00D4-0744-4A5F-B5DF-6007853D75F3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NSDate-Example</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>78CD75A3-29DB-45E5-A366-F4EB9729E132</key>
+		<string>https://github.com/cmendesce/nsdate-helper</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NSDate-Example/NSDate-Example.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>78CD75A3-29DB-45E5-A366-F4EB9729E132</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cmendesce/nsdate-helper</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>78CD75A3-29DB-45E5-A366-F4EB9729E132</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>78CD75A3-29DB-45E5-A366-F4EB9729E132</string>
+			<key>IDESourceControlWCCName</key>
+			<string>nsdate-helper</string>
+		</dict>
+	</array>
+</dict>
+</plist>

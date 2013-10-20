@@ -54,9 +54,11 @@
 - (NSDate *)beginningOfDay;
 - (NSDate *)endOfWeek;
 
-+ (NSString *)dateFormatString;
+/*+ (NSString *)dateFormatString;
 + (NSString *)timeFormatString;
 + (NSString *)timestampFormatString;
-+ (NSString *)dbFormatString;
++ (NSString *)dbFormatString;*/
+
+//+ (NSString *)localizedForKey:(NSString *)key;
 
 @end

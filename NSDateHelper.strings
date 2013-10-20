@@ -1,0 +1,14 @@
+/* 
+  NSDateHelper.strings
+  NSDate-Example
+
+  Created by Carlos Mendes on 20/10/13.
+  Copyright (c) 2013 Carlos Mendes. All rights reserved.
+*/
+"dateFormatString" = "yyyy-MM-dd";
+"timeFormatString" = "HH:mm:ss";
+"timestampFormatString" = "yyyy-MM-dd HH:mm:ss";
+"today" = "Today";
+"yesterday" = "Yesterday";
+"daysAgo" = "%i days ago";
+"dbFormatString" = "yyyy-MM-dd HH:mm:ss";
