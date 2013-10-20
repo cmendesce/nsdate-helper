@@ -20,6 +20,7 @@
 		50E17B3B18141C4F00E2F9B3 /* NSDate_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E17B3A18141C4F00E2F9B3 /* NSDate_ExampleTests.m */; };
 		50E17B4718141C8800E2F9B3 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E17B4618141C8800E2F9B3 /* NSDate+Helper.m */; };
 		50E17B50181421BB00E2F9B3 /* NSDateHelper.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50E17B4F181421BB00E2F9B3 /* NSDateHelper.strings */; };
+		50E17B5818142BA600E2F9B3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E17B5718142BA600E2F9B3 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		50E17B4518141C8800E2F9B3 /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Helper.h"; path = "../../NSDate+Helper.h"; sourceTree = "<group>"; };
 		50E17B4618141C8800E2F9B3 /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Helper.m"; path = "../../NSDate+Helper.m"; sourceTree = "<group>"; };
 		50E17B4F181421BB00E2F9B3 /* NSDateHelper.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = NSDateHelper.strings; path = ../../NSDateHelper.strings; sourceTree = "<group>"; };
+		50E17B5618142BA600E2F9B3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		50E17B5718142BA600E2F9B3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				50E17B2718141C4F00E2F9B3 /* Images.xcassets */,
 				50E17B1C18141C4F00E2F9B3 /* Supporting Files */,
 				50E17B4F181421BB00E2F9B3 /* NSDateHelper.strings */,
+				50E17B5618142BA600E2F9B3 /* HomeViewController.h */,
+				50E17B5718142BA600E2F9B3 /* HomeViewController.m */,
 			);
 			path = "NSDate-Example";
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 				50E17B4718141C8800E2F9B3 /* NSDate+Helper.m in Sources */,
 				50E17B2618141C4F00E2F9B3 /* AppDelegate.m in Sources */,
 				50E17B2218141C4F00E2F9B3 /* main.m in Sources */,
+				50E17B5818142BA600E2F9B3 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,12 +369,16 @@
 		50E17B3F18141C4F00E2F9B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NSDate-Example/NSDate-Example-Prefix.pch";
 				INFOPLIST_FILE = "NSDate-Example/NSDate-Example-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -376,12 +386,16 @@
 		50E17B4018141C4F00E2F9B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NSDate-Example/NSDate-Example-Prefix.pch";
 				INFOPLIST_FILE = "NSDate-Example/NSDate-Example-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
